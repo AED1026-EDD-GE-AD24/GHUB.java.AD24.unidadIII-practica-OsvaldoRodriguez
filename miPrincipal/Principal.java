@@ -1,6 +1,7 @@
 package miPrincipal;
 import java.util.Hashtable;
 import hashtable.Persona;
+import java.util.Enumeration;
 public class Principal {
     public String getGreeting() {
         return "Hello World!";
@@ -24,6 +25,9 @@ public class Principal {
         System.out.println(tabla.get("Pedro"));
 
         System.out.println(tabla.get("Luis")); //retorna null porque el key Luis no existe
+
+        String aux;
         
+
     }
 }
